@@ -10,6 +10,9 @@ Conda environment can be reproduced by
     conda env create -n happywhale -f environment.yaml
     conda activate happywhale
 
+## Scripts
+    - python3 scripts/classification/train_classifier.py
+
 
 ## To Do
 The goal is to identify the individuals not the species.

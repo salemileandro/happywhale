@@ -1,0 +1,15 @@
+artifact_uri: /home/salemi/Documents/Kaggle/happywhale/mlruns/0/6e28f52a2c1142929be134438b2d18a4/artifacts
+end_time: 1644173681273
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 6e28f52a2c1142929be134438b2d18a4
+run_uuid: 6e28f52a2c1142929be134438b2d18a4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1644171385004
+status: 3
+tags: []
+user_id: salemi

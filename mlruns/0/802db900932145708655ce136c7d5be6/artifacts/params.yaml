@@ -1,0 +1,9 @@
+batch: 32
+cutoff: 19
+epochs: 10
+ft: false
+ft_epochs: 10
+ft_lr: 1.0e-05
+lr: 0.001
+steps_per_epoch: 38
+test_run: true

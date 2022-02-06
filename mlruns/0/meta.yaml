@@ -1,4 +1,4 @@
-artifact_location: file:///home/salemi/Documents/Kaggle/happywhale/mlflow/0
+artifact_location: /home/salemi/Documents/Kaggle/happywhale/mlruns/0
 experiment_id: '0'
 lifecycle_stage: active
-name: test
+name: classification

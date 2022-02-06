@@ -13,7 +13,7 @@ PROJECT_ROOT_DIR = x.stdout.decode().strip()
 
 print(PROJECT_ROOT_DIR)
 
-MLFLOW_URI = os.path.join(PROJECT_ROOT_DIR, "mlflow")
+MLFLOW_URI = os.path.join(PROJECT_ROOT_DIR, "mlruns")
 if not os.path.isdir(MLFLOW_URI):
     os.makedirs(MLFLOW_URI, exist_ok=False)
 mlflow.set_tracking_uri("file://" + MLFLOW_URI)

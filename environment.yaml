@@ -20,6 +20,7 @@ dependencies:
   - brotli=1.0.9=h9c3ff4c_4
   - brotlipy=0.7.0=py37h5e8e339_1001
   - bzip2=1.0.8=h7b6447c_0
+  - c-ares=1.18.1=h7f8727e_0
   - ca-certificates=2021.10.8=ha878542_0
   - cached-property=1.5.2=hd8ed1ab_1
   - cached_property=1.5.2=pyha770c72_1
@@ -78,7 +79,7 @@ dependencies:
   - gstreamer=1.14.0=h28cd5cc_2
   - gunicorn=20.1.0=py37h89c1867_1
   - h5py=3.2.1=nompi_py37ha3df211_100
-  - hdf5=1.10.6=nompi_h3c11f04_101
+  - hdf5=1.10.6=nompi_h7c3c948_1111
   - heapdict=1.0.1=py_0
   - icu=58.2=hf484d3e_1000
   - idna=3.3=pyhd8ed1ab_0
@@ -106,11 +107,15 @@ dependencies:
   - jupyterlab_widgets=1.0.2=pyhd8ed1ab_0
   - kaggle=1.5.12=pyhd8ed1ab_4
   - kiwisolver=1.3.1=py37h2531618_0
+  - krb5=1.19.2=hcc1bbae_0
   - lame=3.100=h7b6447c_0
   - lcms2=2.12=h3be6417_0
   - ld_impl_linux-64=2.35.1=h7274673_9
   - libblas=3.9.0=12_linux64_mkl
   - libcblas=3.9.0=12_linux64_mkl
+  - libcurl=7.80.0=h0b77cf5_0
+  - libedit=3.1.20191231=he28a2e2_2
+  - libev=4.33=h516909a_1
   - libffi=3.3=he6710b0_2
   - libgcc-ng=9.3.0=h5101ec6_17
   - libgfortran-ng=7.5.0=h14aa051_19
@@ -119,6 +124,7 @@ dependencies:
   - libgomp=9.3.0=h5101ec6_17
   - libiconv=1.15=h63c8f33_5
   - libidn2=2.3.2=h7f8727e_0
+  - libnghttp2=1.46.0=hce63b2e_0
   - libpng=1.6.37=hbc83047_0
   - libprotobuf=3.15.8=h780b84a_0
   - libsodium=1.0.18=h36c2ea0_1
@@ -307,4 +313,4 @@ dependencies:
     - tensorflow-io-gcs-filesystem==0.23.1
     - termcolor==1.1.0
     - wrapt==1.13.3
-prefix: /home/salemi/anaconda3/envs/happywhale
+prefix: /home/salemi/miniconda3/envs/happywhale

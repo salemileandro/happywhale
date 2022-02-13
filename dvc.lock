@@ -1,0 +1,10 @@
+schema: '2.0'
+stages:
+  preprocess:
+    cmd: python3 scripts/preprocess.py -v
+    params:
+      params.yaml:
+        preprocess.overwrite: false
+        preprocess.size:
+        - 224
+        - 224

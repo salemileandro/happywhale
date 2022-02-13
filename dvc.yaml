@@ -1,0 +1,12 @@
+stages:
+  preprocess:
+    cmd: python3 scripts/preprocess.py -v
+    params:
+      - preprocess.overwrite
+      - preprocess.size
+  encode:
+    cmd: python3 scripts/encode.py -v
+    params:
+      - encode.backbone
+    outs:
+      - encoded/data.h5

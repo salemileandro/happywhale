@@ -8,3 +8,10 @@ stages:
         preprocess.size:
         - 224
         - 224
+  encode:
+    cmd: python3 scripts/classification/encode.py -v
+    params:
+      params.yaml:
+        encode.backbone: resnet50
+        encode.batch: 512
+        encode.overwrite: false

@@ -1,3 +1,7 @@
 preprocess:
   size: [224, 224]
   overwrite: False
+encode:
+  backbone: "resnet50"
+  overwrite: False
+  batch: 512

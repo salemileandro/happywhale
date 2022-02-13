@@ -4,3 +4,4 @@ input/happy-whale-and-dolphin/*
 .idea/*
 *.pyc
 preprocessed_224-224/*
+encoded/*
